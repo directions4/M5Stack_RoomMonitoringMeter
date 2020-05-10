@@ -179,9 +179,9 @@ uint16_t getHumidStatusColor(float humid) {
   else if (humid <= 50)
     return getColor(0, 255, 0);
   else if (humid <= 60)
-    return getColor(255, 145, 0);
-  else if (humid <= 70)
     return getColor(255, 255, 0);
+  else if (humid <= 70)
+    return getColor(255, 145, 0);
   else if (humid <= 190)
     return getColor(255, 0, 0);
   else
